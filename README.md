@@ -9,6 +9,8 @@
 
 ---
 
+![Menu Principal](MenuPrincipal.png)
+
 ## 1. Introducción
 
 El trabajo consistió en desarrollar en Java un sistema de gestión para una librería aplicando conceptos de programación orientada a objetos. La aplicación permite administrar libros, autores y clientes, además de realizar búsquedas y ventas desde la terminal.
@@ -109,7 +111,15 @@ El menú permite:
 6. Mostrar libros comprados.
 0. Salir.
 
+![Menu Principal](MenuPrincipal.png)
+
 Al agregar un libro, el usuario puede elegir entre libro general, novela o libro de texto e ingresar también los datos del autor.
+
+![Catalogo de disponibilidad](Catalogo.png)
+
+![Busqueda en Catalogo](BusquedaCatalogo.png)
+
+![Seccion de ventas](VentaLibros.png)
 
 ## 10. Conceptos de POO utilizados
 
