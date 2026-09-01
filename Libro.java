@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+
+// La clase Libro representa la estructura base de cualquier libro del sistema.
 public class Libro { 
 
     private String titulo;
@@ -9,6 +11,9 @@ public class Libro {
     private boolean disponible;
     private ArrayList<Autor> autores;
 
+
+     // Constructor: inicializa los datos principales del libro.
+    // Todo libro nuevo comienza disponible y con una lista de autores vacía.
         public Libro(String titulo, String isbn, double precio, int añoPublicacion) {
             this.titulo = titulo; 
             this.isbn = isbn;
@@ -38,14 +43,17 @@ public class Libro {
             return disponible;
         }
 
+        // Permite cambiar el estado de disponibilidad del libro.
         public void setDisponible(boolean disponible) {
             this.disponible = disponible;
         }  
 
+        // Devuelve la lista de autores asociados al libro.
                 public ArrayList<Autor> getAutores() {
                     return autores;
                 }
 
+                   // Agrega un autor a la lista de autores del libro.
                 public void agregarAutor(Autor autor) {
                     autores.add(autor);
                 }
