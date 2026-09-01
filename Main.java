@@ -136,10 +136,6 @@ libreria.agregarLibro(cleanCode);
 // Cliente utilizado para las pruebas de compra
 Cliente cliente = new Cliente("Alberto Ruiz", "C001");
 
-
-
-
-
         int opcion;
 
         do {
